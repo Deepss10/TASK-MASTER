@@ -58,7 +58,7 @@ const TaskCard: React.FC<TaskCardProps> = ({ task }) => {
   );
 
   return (
-    <Card title={task.title} d
+    <Card title={task.title} 
     style={{
       marginBottom:"10px"
     }}
