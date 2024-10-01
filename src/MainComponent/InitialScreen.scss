@@ -1,0 +1,93 @@
+.background-container {
+    background-image: url('./imgs/Task\ Master.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+
+    .task-title {
+        color: #333333e0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        font-style: oblique;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+
+    .Task-Initialscreen-content {
+            font-weight: bolder;
+            padding: 3% 20%;
+            text-align: center;
+            color: #002147;
+        }
+
+        .Task-Initialscreen-button{
+        //padding: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+
+        button {
+            // width: 100%;
+            color: rgb(247, 247, 252);
+            font-weight: bold;
+
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .background-container {
+        background-image: url('./imgs/TaskMasterMobile.png');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        .task-title {
+            color: rgb(50, 50, 56);
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            font-style: oblique;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+
+        .Task-Initialscreen-content {  
+            font-weight: bolder;
+            padding: 3% 31%;
+            font-size: 10px;
+            text-align: center;
+            color: #002147;
+
+        }
+
+        .Task-Initialscreen-button {
+               padding: 0px 5%;
+               margin-top: 90px;
+               position: absolute;
+               /* top: 0; */
+               bottom: 30px;
+               left: 0;
+               right: 0;
+
+            button {
+                width: 100%;
+                color: rgb(247, 247, 252);
+                font-weight: bold;
+
+            }
+        }
+
+
+    }
+}

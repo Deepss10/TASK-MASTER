@@ -1,0 +1,92 @@
+body{
+    background:url("./imgs/dark-black-background-design-with-stripes_1017-38064.avif");
+}
+
+
+.task-container {
+    padding: 3%;
+    
+   
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.task-card {
+    border: 1px solid white;
+    border-radius: 20px;
+    // box-shadow: 10px 10px 10px #7a7b7e;
+    
+    background: linear-gradient(45deg, #eee, #49e9ac);
+    color: rgb(0, 0, 0);
+    // text-align: center;
+    padding: 13px 0px 20px 20px;
+    margin: 2% 0px;
+    // height: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    
+    
+    .title-div{
+      .title-name{
+        text-align: center;
+      }   
+    }
+    .description-title{
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        display: -webkit-box !important;
+        cursor: default;
+    }
+    
+}
+
+.Button{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+   
+}
+
+.star{
+  color: red;
+}
+.Navbar{
+  
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1%;
+ // background-image: url("../Image/TaskMasterMobile.png");
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7px);
+   -webkit-backdrop-filter: blur(30px);
+}
+
+.status{
+  display: flex;
+  justify-content: center;
+  
+}
+@media screen and (max-width:600px){
+  .Button{
+    display: flex;
+    
+    // justify-content: center;
+    // align-items: center;
+    
+    .add-button{
+
+      width: 100%;
+    }
+    .back-button{
+      width: 100%;
+    }
+  }
+  .Navbar{
+    display: flex;
+  }
+}
